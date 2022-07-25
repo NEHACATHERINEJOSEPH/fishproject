@@ -17,7 +17,7 @@ pickle_in = open("fish.pkl","rb")
 logistic_model = pickle.load(pickle_in)
 
 @app.route('/')
-def home():
+def fish():
     return render_template('fish.html')
 
 
